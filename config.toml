@@ -1,0 +1,8 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Hello Friend"
+
+[params]
+  contentTypeName = "posts"
+  defaultTheme = "dark"
+  showMenuItems = 0
