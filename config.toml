@@ -1,6 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Hello Friend"
+theme = "solar-theme-hugo"
 
 [params]
   contentTypeName = "posts"

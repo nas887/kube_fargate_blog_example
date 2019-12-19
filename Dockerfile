@@ -24,6 +24,7 @@ FROM nginx:alpine
 COPY ./conf/default.conf /etc/nginx/conf.d/default.conf
 
 COPY --from=build /site/public /var/www/site
+RUN chmod -R 755 /var/www/site
 
 WORKDIR /var/www/site
 
